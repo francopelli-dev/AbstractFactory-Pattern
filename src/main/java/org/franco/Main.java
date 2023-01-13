@@ -16,5 +16,11 @@ public class Main {
         auto1.arrancar(124);
         auto2.arrancar(2);
         auto3.arrancar(1234);
+
+        CamionAbs camion1 = factory1.CrearProductoB();
+        camion1.cargar(auto1);
+        camion1.cargar(auto2);
+        camion1.arrancar();
+
     }
 }

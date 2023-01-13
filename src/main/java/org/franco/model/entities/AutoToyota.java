@@ -15,4 +15,7 @@ public class AutoToyota implements AutoAbs{
         this.color = color;
         this.patente = patente;
     }
+    public String toString(){
+        return "Auto Toyota patente: " + this.patente;
+    }
 }

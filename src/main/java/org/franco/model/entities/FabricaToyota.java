@@ -17,7 +17,7 @@ public class FabricaToyota implements FabricaAbstracta{
     }
 
     @Override
-    public void CrearProductoB() {
-
+    public CamionAbs CrearProductoB() {
+        return null;
     }
 }

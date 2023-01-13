@@ -16,8 +16,8 @@ public class FabricaFord implements FabricaAbstracta{
     }
 
     @Override
-    public void CrearProductoB() {
-
+    public CamionAbs CrearProductoB() {
+        return new CamionFord(contador.nuevo());
     }
 
 }
