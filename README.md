@@ -1,0 +1,2 @@
+# AbstractFactory-Pattern
+AbstractFactory
